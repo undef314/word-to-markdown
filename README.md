@@ -16,7 +16,7 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install word-to-markdown --edge
+    sudo snap install word-to-markdown --edge --devmode
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
