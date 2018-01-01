@@ -1,0 +1,19 @@
+name: word-to-markdown
+version: 1.1.7
+summary: Gem which liberates content from Word Documents.
+description: |
+  A gem which liberates content from Word Documents.
+
+
+grade: devel
+confinement: devmode
+
+apps:
+  word-to-markdown: 
+    command: bin/w2m
+    plugs: [home]
+
+parts:
+  word-to-markdown:
+    plugin: ruby
+    gems: ['word-to-markdown']
