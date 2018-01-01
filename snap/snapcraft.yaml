@@ -16,4 +16,5 @@ apps:
 parts:
   word-to-markdown:
     plugin: ruby
+    build-packages: [soffice]
     gems: ['word-to-markdown']
